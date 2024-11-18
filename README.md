@@ -19,7 +19,7 @@ but that code is a few years old...
 # Instructions:
 Generate a basic dev environment using the IOC file (or your own) with STM32CubeMX, then copy the listed modified USB files, sample main.c .
  Anytime the IOC is changed and code regenerated you'll have to re-copy files.
-- For STM32CubeMX, In the "Code Generator" section verify "Copy on the necessary library files". Otherwise the IDE will reference the repository, not the copied files.
+- For STM32CubeMX, In the "Code Generator" section verify "Copy only the necessary library files". Otherwise the IDE will reference the repository, not the copied files.
 
 # Modified Files:
 - Class\CDC\Src\usbd_cdc.c
