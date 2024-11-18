@@ -31,3 +31,8 @@ Generate a basic dev environment using the IOC file (or your own) with STM32Cube
 - USB_DEVICE\Target\usbd_conf.c
 - USB_DEVICE\Target\usbd_conf.h
 - Core\Src\main.c
+
+# Testing
+- verify 2 COM ports appear (Windows 10).
+- Optionally use USBDeview (from www.nirsoft.net) to show USB devices. Observe STM32 Virtual ComPort	USB Composite Device.
+- serial_loop_STM32F072.py passes and verifies serial data between the Virtual Com Ports (works on Windows 10).
